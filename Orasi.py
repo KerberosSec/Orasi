@@ -20,7 +20,7 @@ PORT = 1
 def dependencies(): #Abstração que verifica Requisitos #{
    print (G + "[" + W + "+" + G + "]" + C + " Verificando Dependências..." + W)
    time.sleep(1)
-   pkgs = ["python3", "bash", "curl"]
+   pkgs = ["python3"]
    inst = True
    for pkg in pkgs:
          present = which(pkg)
